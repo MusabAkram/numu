@@ -8,7 +8,7 @@ import { Switch, BrowserRouter, Route } from "react-router-dom";
 
 ReactDOM.render(
   <BrowserRouter>
-    <div>
+    <div className="jumbotron">
       <Switch>
         <Route exact path="/" component={App} />
         <Route path="/details" component={Details} />
