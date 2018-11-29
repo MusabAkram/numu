@@ -14,7 +14,7 @@ class Details extends React.Component {
         <h1>Details page</h1>
         <div>This will contain details of movies and shows</div>
         <img
-          className="thumbnail img-responsive"
+          className="img-thumbnail img-responsive"
           src={this.props.poster}
           width="300"
           height="450"
