@@ -10,15 +10,17 @@ class Details extends React.Component {
     console.log(this.props.params);
 
     return (
-      <div>
+      <div className="container-fluid">
+        <h1>Details page</h1>
+        <div>This will contain details of movies and shows</div>
         <img
+          className="thumbnail img-responsive"
           src={this.props.poster}
           width="300"
           height="450"
           className="img-responsive"
         />
-        <h1>Details page</h1>
-        <div>This will contain details of movies and shows</div>
+        <p>Here goes the description of the Movie/Show...</p>
       </div>
     );
   }

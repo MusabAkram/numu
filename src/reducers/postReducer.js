@@ -3,7 +3,8 @@ import { FETCH_POSTS, FETCH_SHOWS, UPDATE } from "../actions/types";
 const initialState = {
   movies: [],
   shows: [],
-  details: {}
+  details: {},
+  numToShow: 10
 };
 
 export default function(state = initialState, action) {
